@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+/* Navigation Bar */
+#nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: rgb(66, 63, 63);
+    color: white;
+    justify-content: space-between;
+    z-index: 1;
+    opacity: 1;
+}
+#nav h2{
+    padding-top: 0.5rem;
+    font-size: 1.75rem;
+    margin-left: 5%;
+}
+#nav ul{
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+}
+#nav li{
+    display: inline;
+    margin: 0.5rem 0.75rem;
+    padding: 0.5rem 0.75rem;
+}
+#nav a{
+    color: gold;
+    text-transform: uppercase;
+}
+#nav li:hover{
+    cursor: pointer;
+    background-color: goldenrod;
+    border-radius: 5%;
+}
+#nav li:hover a{
+    color: #222;
+}
+
+
+
+
+
+body{
+    background: url("../images/Background_img.jpg")no-repeat fixed;
+    background-size: cover;
+    font-family: roboto;
+}
+
+.home {
+    text-align: center;
+    height: 72.5vh;
+    width: 80vw;
+    margin-left: 10%;
+}
+
+#landing-page h3{
+    margin-top: 5%;
+    background-color: blue;
+    color: white;
+    font-size: 2em;
+    padding: 25px;
+}
+
+#landing-page p {
+    margin-top: 2.5%;
+    font-size: 4em;
+    background-color: teal;
+}
+
+.section-a {
+    height: 10vh;
+}
